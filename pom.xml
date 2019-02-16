@@ -31,6 +31,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.version>0.0.1-SNAPSHOT</project.version>
+        <unify.version>1.0.1-SNAPSHOT</unify.version>
 	</properties>
 
 	<build>
@@ -61,17 +62,17 @@
 		<dependency>
 			<groupId>com.tcdng.unify</groupId>
 			<artifactId>unify-core</artifactId>
-			<version>${project.version}</version>
+			<version>${unify.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.tcdng.unify</groupId>
 			<artifactId>unify-web</artifactId>
-			<version>${project.version}</version>
+			<version>${unify.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.tcdng.unify</groupId>
 			<artifactId>unify-jetty</artifactId>
-			<version>${project.version}</version>
+			<version>${unify.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hsqldb</groupId>
