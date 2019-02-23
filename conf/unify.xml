@@ -26,16 +26,16 @@
 		<property name="application.command.interface.enabled" value="true" />
 		<property name="application.command.interface.port" value="8081" />
 		<property name="application.interfaces">
-			<value>jetty-httpinterface</value>
+			<value>jetty-embeddedwebserver</value>
 		</property>
 		<property name="application.web.session.timeout" value="900" />
 	</properties>
 
 	<!-- COMPONENTS -->
 	<components>
-		<!-- Configure HTTP interface -->
-		<component name="jetty-httpinterface"
-			class="com.tcdng.unify.jetty.http.JettyHttpInterface">
+		<!-- Configure embedded web server -->
+		<component name="jetty-embeddedwebserver"
+			class="com.tcdng.unify.jetty.http.JettyEmbeddedWebServer">
 			<properties>
 				<property name="contextPath" value="/unify" />
 				<property name="httpPort" value="8080" />
