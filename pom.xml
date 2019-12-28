@@ -31,7 +31,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.version>0.0.1-SNAPSHOT</project.version>
-        <unify.version>1.0.1-SNAPSHOT</unify.version>
+        <unify.version>1.0.3-SNAPSHOT</unify.version>
 	</properties>
 
 	<build>
