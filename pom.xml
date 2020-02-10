@@ -4,7 +4,7 @@
 
 	<groupId>com.tcdng.unify</groupId>
 	<artifactId>unify-app</artifactId>
-	<version>1.1.0</version>
+	<version>1.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>unify-app</name>
@@ -30,8 +30,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.version>1.1.0</project.version>
-        <unify.version>1.1.0</unify.version>
+		<project.version>1.1.1</project.version>
+        <unify.version>1.1.1</unify.version>
 	</properties>
 
 	<build>
