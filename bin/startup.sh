@@ -26,5 +26,5 @@ START_OPERATION=install
 WORKING_FOLDER=$UNIFY_HOME
 
 # Start instance
-exec java -Xmx128m -Xms128m -cp "$UNIFY_HOME/lib/*" com.tcdng.unify.core.Unify $START_OPERATION -w $WORKING_FOLDER
+exec java -Xmx128m -Xms128m -cp "$UNIFY_HOME/lib/*" com.tcdng.unify.core.Unify $START_OPERATION -w $WORKING_FOLDER &
 
