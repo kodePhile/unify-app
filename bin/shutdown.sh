@@ -19,5 +19,5 @@ if [ -z "$UNIFY_HOME" ]; then
 fi
 
 # Shutdown instance
-exec java -cp "$UNIFY_HOME/lib/*" com.tcdng.unify.core.Unify shutdown -h localhost -p 8081
+exec java -cp "$UNIFY_HOME/lib/*" com.tcdng.unify.core.Unify shutdown -h localhost -p 8081 &
 
